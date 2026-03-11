@@ -1,5 +1,5 @@
 Atividade Estrutura de Dados - Listas
-Alunos:
+*Alunos:*
 - Gabriel Sarabia
 - Davi Golfeto
 - Eduardo Alves
