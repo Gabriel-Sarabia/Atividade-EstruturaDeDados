@@ -22,7 +22,7 @@ public class ListaDinamica implements ListaOperacoes {
 
     public void exibir() {
         if(inicioEstaVazio()) {
-            System.out.println("Não existem elementos na lista dinâmica.");
+            System.out.println("Não existe nenhum elemento na lista dinâmica.");
         } else {
             No aux = this.inicio;
             while(aux != null) {
@@ -42,7 +42,7 @@ public class ListaDinamica implements ListaOperacoes {
 
     public void removerElemento(String elemento) {
         if(inicioEstaVazio()) {
-            System.out.println("Não há elementos a serem removidos.");
+            System.out.println("Não há elementos que devem ser removidos.");
         } else {
             if(procurarElemento(elemento)) {
                 if(this.inicio.getProx() == null) {
@@ -80,7 +80,7 @@ public class ListaDinamica implements ListaOperacoes {
                 }
                 aux = aux.getProx();
             }
-            System.out.println("Elemento " + elemento + " não existe na lista.");
+            System.out.println("O elemento " + elemento + " não existe na lista.");
         }
         return false;
     }
